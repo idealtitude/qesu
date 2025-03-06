@@ -28,9 +28,9 @@ fi
 export PATH
 ```
 
-## Script
+## Scripts
 
-[./utilities](https://github.com/idealtitude/qesu/tree/main/utilities)
+**The script are located in [./utilities](https://github.com/idealtitude/qesu/tree/main/utilities)**
 
 ### `appinfos` ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/appinfos)
 
