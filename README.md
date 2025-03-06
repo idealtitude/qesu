@@ -5,7 +5,7 @@
 ## Presentation
 
 `qesu` is a set of various bash tools for your daily use. Thse are bash scripts that I wrote for various needs and pruposes.
-Take a look in the [./utilities](https://github.com/idealtitude/qesu/utilities) folder to see those scripts, and download those that interest you, or download/clone all the repositories.
+Take a look in the [./utilities](https://github.com/idealtitude/qesu/tree/main/utilities) folder to see those scripts, and download those that interest you, or download/clone all the repositories.
 
 ## Installation
 
@@ -30,12 +30,11 @@ export PATH
 
 ## Script
 
-[./utilities](./utilities)
+[./utilities](https://github.com/idealtitude/qesu/tree/main/utilities)
 
-### `appinfos`
+### `appinfos` ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/appinfos)
 
-When I want to get informations about a program, I have to try several bash buitin tool, like `info`, `apropos`, etc), and it's a bit tedious and boring to type again and again the same commands; so I wrote this script that regroup all these commands.
+When I want to get informations about a program or a command, I have to try several bash buitin tools (like `info`, `apropos`, etc), and it's a bit tedious and boring to type again and again the same commands; so I wrote this script that regroup all these commands.
 
-**Usage:** `ai <program aname>`, where `<program name` is the name of the program or command you want to get info and help about.
-The script will start and prompt you for each information command it uses; you opt in and out for each of them. 
-
+**Usage:** `appinfos <program aname>`, where `<program name` is the name of the program or command you want to get info and help about.
+The script will start and prompt you for each information command it uses; you can opt in or out for each of them.
