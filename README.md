@@ -47,14 +47,14 @@ export PATH
 
 **They are located in [./utilities](https://github.com/idealtitude/qesu/tree/main/utilities)**
 
-### `appinfos` ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/appinfos)
+### `appinfos` ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/appinfos.sh)
 
 When I want to get informations about a program or a command, I have to try several bash buitin tools (like `info`, `apropos`, etc), and it's a bit tedious and boring to type again and again the same commands; so I wrote this script that regroup all these commands.
 
 **Usage:** `appinfos <program aname>`, where `<program name` is the name of the program or command you want to get info and help about.
 The script will start and prompt you for each information command it uses; you can opt in or out for each of them.
 
-### bodh ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/bodh)
+### bodh ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/bodh.py)
 
 `bodh` stands for **b**inary **o**ctal **de**cimal **h**exadecimal. Ity's a small command line utility that receives a number in argument and outputs it in the 4 formats aforementioned.
 `bodh` has its own repository there: [github.com/idealtitude/bodh](https://github.com/idealtitude/bodh)
