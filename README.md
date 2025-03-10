@@ -12,7 +12,7 @@ Take a look in the [./utilities](https://github.com/idealtitude/qesu/tree/main/u
 
 ## Contributing
 
-If you have such tools that you'd like to share, send a PR, or contact me; I'll be pleased to add them!
+If you have such tools that you'd like to share, contact me; I'll be pleased to add them!
 
 Indeed you can also send PR's if you want to enhance or correct any of the tools.
 
