@@ -54,10 +54,10 @@ When I want to get informations about a program or a command, I have to try seve
 **Usage:** `appinfos <program aname>`, where `<program name` is the name of the program or command you want to get info and help about.
 The script will start and prompt you for each information command it uses; you can opt in or out for each of them.
 
-### `bodh` ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/bodh.py)
+### `bodh` ~ [see repo](https://github.com/idealtitude/bodh)
 
 `bodh` stands for **b**inary **o**ctal **de**cimal **h**exadecimal. Ity's a small command line utility that receives a number in argument and outputs it in the 4 formats aforementioned.
-`bodh` has its own repository there: [github.com/idealtitude/bodh](https://github.com/idealtitude/bodh)
+`bodh` has its own repository there: [github.com/idealtitude/bodh](https://github.com/idealtitude/bodh), and is in this repository as a submodules.
 
 **Usage:** `bodh <number>`, where `<number>` is the number to format and display; can be either binary, octal, decimal, or hexadecimal. Except for the decimal version, all others must have their respective format prefix (0b, 0o, and 0x).
 
