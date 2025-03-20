@@ -54,9 +54,17 @@ When I want to get informations about a program or a command, I have to try seve
 **Usage:** `appinfos <program aname>`, where `<program name` is the name of the program or command you want to get info and help about.
 The script will start and prompt you for each information command it uses; you can opt in or out for each of them.
 
-### bodh ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/bodh.py)
+### `bodh` ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/bodh.py)
 
 `bodh` stands for **b**inary **o**ctal **de**cimal **h**exadecimal. Ity's a small command line utility that receives a number in argument and outputs it in the 4 formats aforementioned.
 `bodh` has its own repository there: [github.com/idealtitude/bodh](https://github.com/idealtitude/bodh)
 
 **Usage:** `bodh <number>`, where `<number>` is the number to format and display; can be either binary, octal, decimal, or hexadecimal. Except for the decimal version, all others must have their respective format prefix (0b, 0o, and 0x).
+
+### `lamp` ~ [see file](https://github.com/idealtitude/qesu/blob/main/utilities/lamp.py)
+
+Historically, *lamp* stands for Linux Apache MySQL PHP (not my invention).
+
+I wrote this small Python script some years ago, and I've never modified it since; so it's very minimalistic because, 1) I was starting to learn Python back then (when I wrote it), 2) It does the job, 3) I have to think that I have to improve it, but 4) I've just corrected it a bit, so that I can share a acceptable version of it...
+
+**Usage:** it simple and easy to use, *note that you have to be root to run it!*; you can start, stop, restart, reload, and get status, of `httpd` and `mariadb` (modify the script accordingly to the services you use), both in one go, or separately as you see fit; just do (to start both Apache and MariaDB) `lamp start web sql`. As usual, do `lamp -h` to see the full help.
