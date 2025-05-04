@@ -68,3 +68,21 @@ Historically, *lamp* stands for Linux Apache MySQL PHP (not my invention).
 I wrote this small Python script some years ago, and I've never modified it since; so it's very minimalistic because, 1) I was starting to learn Python back then (when I wrote it), 2) It does the job, 3) I have to think that I have to improve it, but 4) I've just corrected it a bit, so that I can share a acceptable version of it...
 
 **Usage:** it simple and easy to use, *note that you have to be root to run it!*; you can start, stop, restart, reload, and get status, of `httpd` and `mariadb` (modify the script accordingly to the services you use), both in one go, or separately as you see fit; just do (to start both Apache and MariaDB) `lamp start web sql`. As usual, do `lamp -h` to see the full help.
+
+### `tfc` ~ [see repo](https://github.com/idealtitude/tfc)
+
+**tfc** stands for **T**emplate **F**ile **C**opy. It is a small, easy, and fast terminal utility that allows you to copy any file from your Templates folder and paste it in your working directory (or any other location of your choice; see the options menu with `tfc --help`).
+
+**Usage:**
+
+Create a file from a bash template file
+
+```bash
+tfc bash my_script.sh
+```
+
+List all available templates
+
+```bash
+tfc -t
+```

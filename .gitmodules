@@ -1,3 +1,7 @@
 [submodule "bodh"]
 	path = bodh
 	url = https://github.com/idealtitude/bodh
+
+[submodule "tfc"]
+	path = tfc
+	url = https://github.com/idealtitude/tfc
