@@ -34,11 +34,20 @@ def parse_arguments() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def exec_cmd(cmd) -> None:
-    """Actually executing the systemctl commands"""
+def exec_cmd(cmd: list[str]) -> None:
+    """
+    @brief Actually executing the systemctl commands
+
+    @param cmd (strings array) contains each element of the command to process
+    """
     try:
         result: subprocess.CompletedProcess = subprocess.run(cmd)
-        print(result.stdout.strip())
+        if result.returncode == 0:
+            print("\nlamp status: command \033[94msubprocessed\033[0m successfully!")
+        if result.stdout is not None:
+            print(result.stdout.strip())
+        if result.stderr is not None:
+            print(result.stderr.strip())
     except (subprocess.CalledProcessError, Exception) as ex:
         print(f"\033[91mError\033[0m\nCommand execution failed:\n{ex}")
 
